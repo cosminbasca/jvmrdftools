@@ -8,7 +8,7 @@ import edu.lehigh.swat.bench.uba.Generator
 case class LubmConfig(numUniversities: Int = -1,
                       startIndex: Int = -1,
                       seed: Int = -1,
-                      daml: Boolean = true,
+                      daml: Boolean = false,
                       ontology: String = "http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl",
                       outputPath: String = ".")
 
