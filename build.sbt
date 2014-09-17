@@ -26,7 +26,7 @@ sourceGenerators in Compile <+= buildInfo
 
 buildInfoKeys := Seq[BuildInfoKey](name, version, scalaVersion, sbtVersion)
 
-buildInfoPackage := "com.avalanche"
+buildInfoPackage := "com.rdftools"
 
 // ---------------------------------------------------------------------------------------------------------------------
 //
