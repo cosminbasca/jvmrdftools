@@ -15,7 +15,7 @@ object NxVoidGenerator extends App {
     val parser = new scopt.OptionParser[NxVoidConfig]("NxVoidGenerator") {
       head(BuildInfo.name, BuildInfo.version)
 
-      opt[String]('o', "ontology") action {
+      opt[String]('o', "source") action {
         (x, c) => c.copy(source = x)
       } text "the source file to analize"
 
