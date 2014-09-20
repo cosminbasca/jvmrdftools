@@ -9,7 +9,7 @@ assemblySettings
 
 name := "jvmrdftools"
 
-version := "0.1.0"
+version := "0.1.1"
 
 scalaVersion := "2.11.2"
 
@@ -59,3 +59,5 @@ libraryDependencies += ("log4j" % "log4j" % "1.2.17")
 libraryDependencies += ("org.slf4j" % "slf4j-log4j12" % "1.7.7")
 
 libraryDependencies += ("com.github.scopt" %% "scopt" % "3.2.0")
+
+libraryDependencies += ("net.liftweb" %% "lift-json" % "2.6-RC1")
