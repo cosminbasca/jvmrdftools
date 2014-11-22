@@ -9,9 +9,9 @@ assemblySettings
 
 name := "jvmrdftools"
 
-version := "0.1.1"
+version := "0.1.2"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.4"
 
 scalacOptions ++= Seq("-optimize", "-Ydelambdafy:inline", "-Yclosure-elim", "-Yinline-warnings", "-Ywarn-adapted-args", "-Ywarn-inaccessible", "-feature", "-deprecation")
 
@@ -48,7 +48,7 @@ libraryDependencies ++= Seq()
 
 libraryDependencies += ("org.scalatest" %% "scalatest" % "2.1.7" % "test")
 
-libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.2.6")
+libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.3.0")
 
 libraryDependencies += ("com.sparqlclient" %% "sparqlclient" % "0.2.5")
 
