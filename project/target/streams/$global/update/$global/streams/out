@@ -40,7 +40,7 @@
 [debug] == resolving dependencies for default#jvmrdftools-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#jvmrdftools-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62ac1b22
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47756db
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -1373,7 +1373,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3708ms :: artifacts dl 87ms
+[debug] :: resolution report :: resolve 4727ms :: artifacts dl 108ms
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT compile produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-compile.xml
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT runtime produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-runtime.xml
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT test produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-test.xml
@@ -1387,5 +1387,5 @@
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT docs produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-docs.xml
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT pom produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-pom.xml
 [debug] 	report for default#jvmrdftools-build;0.1-SNAPSHOT scala-tool produced in /Users/basca/Workspace/sw/jvmrdftools/project/target/resolution-cache/reports/default-jvmrdftools-build-scala-tool.xml
-[debug] 	resolve done (3708ms resolve - 87ms download)
+[debug] 	resolve done (4727ms resolve - 108ms download)
 [info] Done updating.
