@@ -13,6 +13,14 @@ TODO's
 * documentation
 * examples
 
+Gotcha's
+--------
+Everytime the project version information is changed, BuildInfo needs to be regenerated. To do that simply run:
+
+```sh
+$ sbt compile
+```
+
 Thanks a lot to
 ---------------
 * [University of Zurich](http://www.ifi.uzh.ch/ddis.html) and the [Swiss National Science Foundation](http://www.snf.ch/en/Pages/default.aspx) are generously funding our research on graph processing and the development of this package.

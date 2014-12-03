@@ -2,3 +2,4 @@ projectFilesBackup/*
 target
 .idea
 .DS_Store
+project/target/*
