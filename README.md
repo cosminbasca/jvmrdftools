@@ -15,10 +15,16 @@ TODO's
 
 Gotcha's
 --------
-Everytime the project version information is changed, BuildInfo needs to be regenerated. To do that simply run:
+Every time the project version information is changed, BuildInfo needs to be regenerated. To do that simply run:
 
 ```sh
 $ sbt compile
+```
+
+to generate the assembly (used by the [rdftools](https://github.com/cosminbasca/rdftools) python module) simply run
+
+```sh
+$ sbt assembly
 ```
 
 Thanks a lot to
